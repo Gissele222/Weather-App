@@ -4,14 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=>, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Golos+Text&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Gissele's App</title>
   </head>
   <body>
     <div class="weather-details">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city.." />
-          <input type="submit" value="Search" />
+        <form class="search-city">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
       <main>
