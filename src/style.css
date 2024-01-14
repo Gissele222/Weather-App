@@ -82,14 +82,14 @@ main {
 }
 
 .weather-temperature {
-  font-size: 88px;
+  font-size: 80px;
   line-height: 111px;
   font-weight: bold;
 }
 .weather-unit {
   font-size: 35px;
-  margin-top: 15px;
-  margin-left: -5px;
+  margin-top: 18px;
+  margin-left: 2px;
   display: block;
 }
 img {
