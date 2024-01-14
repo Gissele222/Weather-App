@@ -76,12 +76,11 @@ main {
   display: flex;
 }
 .weather-icon {
-  font-size: 60px;
-  margin-top: 10px;
+  size: 100px;
 }
 .weather-temperature {
   font-size: 88px;
-  margin-left: 18px;
+  margin-left: 100px;
 }
 .weather-unit {
   font-size: 40px;
