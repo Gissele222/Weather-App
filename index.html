@@ -31,19 +31,24 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-city" id="city">San Diego</h1>
+            <h1 class="weather-city" id="city"></h1>
             <p class="weather-app-details">
-              Saturday 18:05, scattered rain <br />
-              Humidity: <strong>30%</strong>, Wind: <strong>5.14km/h</strong>
+              <span id="time"></span>,
+              <span id="description"></span>
+              <br />
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
             </p>
           </div>
           <div class="weather-container">
+            <div id="icon"></div>
             <div class="weather-icon">🌧</div>
-            <div class="weather-temperature" id="temperature">6</div>
-            <div class="weather-unit">°C</div>
+            <div class="weather-temperature" id="temperature"></div>
+            <div class="weather-unit">°F</div>
           </div>
         </div>
       </main>
+
       <footer>
         This project was built by
         <a href="https://github.com/Gissele222?tab=repositories" target="blank"
