@@ -1,8 +1,8 @@
 body {
   background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-    linear-gradient(97deg, black 15px, transparent 5px) 0px 10px,
-    linear-gradient(207deg, black 15px, transparent 5px) 10px 5px,
+    linear-gradient(207deg, #151515 1px, transparent 5px) 10px 0px,
+    linear-gradient(97deg, black 25px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, black 25px, transparent 5px) 10px 5px,
     linear-gradient(90deg, #1b1b1b 5px, transparent 10px),
     linear-gradient(
       black 15%,
