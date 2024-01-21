@@ -20,8 +20,8 @@ body {
 }
 
 .weather-details {
-  background-color: #8c8f94;
-  opacity: 88%;
+  background-color: #fcffcd;
+  opacity: 75%;
   max-width: 630px;
   margin: 100px auto;
   padding: 30px;
@@ -70,8 +70,8 @@ main {
   font-size: 15px;
 }
 .weather-app-details strong {
-  color: white;
-  font-weight: 400;
+  color: #1d1d1d;
+  font-weight: 600;
 }
 .weather-container {
   display: flex;
