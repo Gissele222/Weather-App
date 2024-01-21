@@ -21,7 +21,7 @@ body {
 
 .weather-details {
   background-color: #8c8f94;
-  opacity: 85%;
+  opacity: 88%;
   max-width: 630px;
   margin: 100px auto;
   padding: 30px;
@@ -115,13 +115,15 @@ main {
 
 .weather-forecast-temperatures {
   text-align: center;
-  margin-top: 110px auto;
+  margin-top: 0 auto;
   display: block;
+  justify-content: center;
 }
 
 .weather-forecast-temperature {
   padding: 4px;
-  margin-right: 20px;
+  margin: 0 auto;
+  display: block;
 }
 
 img {
