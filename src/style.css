@@ -21,7 +21,7 @@ body {
 
 .weather-details {
   background-color: lightgray;
-  opacity: 75%;
+  opacity: 80%;
   max-width: 630px;
   margin: 70px auto;
   padding: 30px;
